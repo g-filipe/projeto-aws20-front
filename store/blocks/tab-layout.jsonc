@@ -1,0 +1,149 @@
+{
+  "tab-layout#home": {
+    "children": ["tab-list#home", "tab-content#home"],
+    "props": {
+      "blockClass": "menu",
+      "defaultActiveTabId": "menu1"
+    }
+  },
+  "tab-list#home": {
+    "children": ["tab-list.item#menu1", "tab-list.item#menu2", "tab-list.item#menu3", "tab-list.item#menu4", "tab-list.item#menu5", "tab-list.item#menu6"]//, "tab-list.item#menu7", "tab-list.item#menu8"
+  },
+  "tab-list.item#menu1": {
+    "props": {
+      "tabId": "menu1",
+      "label": "Quem Somos",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#menu2": {
+    "props": {
+      "tabId": "menu2",
+      "label": "Produtos"
+    }
+  },
+  "tab-list.item#menu3": {
+    "props": {
+      "tabId": "menu3",
+      "label": "Definições de Preço"
+    }
+  },
+  "tab-list.item#menu4": {
+    "props": {
+      "tabId": "menu4",
+      "label": "Documentação"
+    }
+  },
+  "tab-list.item#menu5": {
+    "props": {
+      "tabId": "menu5",
+      "label": "Divertidos"
+    }
+  },
+  "tab-list.item#menu6": {
+    "props": {
+      "tabId": "menu6",
+      "label": "7 Maravilhas"
+    }
+  },
+//  "tab-list.item#menu7": {
+//    "props": {
+//      "tabId": "menu7",
+//      "label": "Guerreiros"
+//    }
+//  },
+//  
+//  "tab-list.item#menu8": {
+//    "props": {
+//      "tabId": "menu8",
+//      "label": "Álbum1"
+//    }
+//  },
+  "tab-content#home": {
+  "children": ["tab-content.item#menu1", "tab-content.item#menu2", "tab-content.item#menu3", "tab-content.item#menu4", "tab-content.item#menu5", "tab-content.item#menu6"] //"tab-content.item#menu7", "tab-content.item#menu8"//
+  },
+
+  "tab-content.item#menu1": {
+    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+    "props": {
+      "tabId": "menu1"
+    }
+  },
+  "tab-content.item#menu2": {
+    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+    "props": {
+      "tabId": "menu2"
+    }
+  },
+    "tab-content.item#menu3": {
+    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+    "props": {
+     "tabId": "menu3"
+    }
+  },
+    "tab-content.item#menu4": {
+   "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+   "props": {
+     "tabId": "menu4"
+   }
+  },
+    "tab-content.item#menu5": {
+    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+    "props": {
+      "tabId": "menu5"
+    }
+  },
+    "tab-content.item#menu6": {
+    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+    "props": {
+      "tabId": "menu6"
+    }
+  },
+
+//  "tab-content.item#menu7": {
+//    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+//    "props": {
+//      "tabId": "menu7"
+//    }
+//   },
+//
+  "flex-layout.row#shelf1": {
+        "children": ["list-context.product-list#home1"]
+},
+//  "tab-content.item#menu8": {
+//    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+//    "props": {
+//      "tabId": "menu8"
+//    }
+//   },
+
+  "list-context.image-list#tab1": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 600,
+      "images": [
+        {
+          "image": "https://github.com/g-filipe/sources/blob/main/bn1-aws.png?raw=true",
+          "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main/banner-wood_sport.png"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/banner-grandes_guerreiros.png",
+          "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main/banner-grandes_guerreiros.png"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  }
+}
