@@ -31,13 +31,22 @@
       "flex-layout.col#logo-desktop",
       "search-bar",
       // "locale-switcher",
-      // "login",
+      "login",
       "minicart.v2"
     ]
   },
   "search-bar": {
     "props": {
       "placeholder": "BUSCAR"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
     }
   },
   "flex-layout.col#logo-desktop": {
@@ -65,7 +74,7 @@
       // "drawer",
       "logo",
       //"flex-layout.col#spacer",
-      //"login",
+      "login",
       "minicart.v2"
     ],
     "props": {
@@ -79,3 +88,4 @@
     "children": []
   }
 }
+

@@ -100,11 +100,11 @@
         {
           "image": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png" , 
           "mobileImage": "https://d1.awsstatic.com/china/hp/Website/Site-Merch_First-Time-Visitor_Hero-BG.95709379ff5911afed6a90a90b17102f92a608dd.png"
-        },
-        {
-          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/banner-grandes_guerreiros.png",
-          "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main/banner-grandes_guerreiros.png"
-        }
+        }//,
+      //  {
+      //    "image": "https://raw.githubusercontent.com/g-filipe/sources/main///banner-grandes_guerreiros.png",
+      //    "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main///banner-grandes_guerreiros.png"
+      //  }
       ]
     }
   },
