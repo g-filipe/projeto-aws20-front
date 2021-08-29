@@ -1,6 +1,6 @@
 {
   "store.home": {
-     "blocks": ["tab-layout#home","__fold__", "stack-layout#cta", "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row"]
+     "blocks": ["slider-layout#home","tab-layout#home","__fold__", "stack-layout#cta", "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row"]
   },
 
 
