@@ -32,13 +32,9 @@
       "height": 800,
       "images": [
         {
-          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png" , 
+          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png",
           "mobileImage": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png"
-        }//,
-      //  {
-      //    "image": "https://raw.githubusercontent.com/g-filipe/sources/main///banner-grandes_guerreiros.png",
-      //    "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main///banner-grandes_guerreiros.png"
-      //  }
+        }
       ]
     }
   },
