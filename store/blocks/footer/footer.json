@@ -30,15 +30,21 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/amazonwebservices"
+          "url": "https://www.facebook.com/amazonwebservices",
+          "target":"_blank",
+          "rel": "noreferrer noopener"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/awscloud"
+          "url": "https://twitter.com/awscloud",
+          "target":"_blank",
+          "rel": "noreferrer noopener"
         },
         {
           "name": "Youtube",
-          "url": "https://www.youtube.com/user/AmazonWebServices/Cloud/"
+          "url": "https://www.youtube.com/user/AmazonWebServices/Cloud/",
+          "target":"_blank",
+          "rel": "noreferrer noopener"
         }
       ]
     }

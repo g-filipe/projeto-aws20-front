@@ -19,6 +19,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/what-is-aws/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "O que é AWS?",
         "text": "O que é AWS?"
@@ -34,6 +36,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/devops/what-is-devops/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "O que é DevOps?",
         "text": "O que é DevOps?"
@@ -49,6 +53,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/new/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "Novidades",
         "text": "Novidades"
@@ -64,6 +70,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/blogs/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "Blogs",
         "text": "Blogs"
@@ -91,6 +99,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/developer/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": true,
         "tagTitle": "Desenvolvedor",
         "text": "Desenvolvedor"
@@ -107,6 +117,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/developer/tools/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": true,
         "tagTitle": "SDKs",
         "text": "SDKs"
@@ -123,6 +135,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/developer/tools/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": true,
         "tagTitle": "Ferramentas",
         "text": "Ferramentas"
@@ -150,6 +164,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/contact-us/?nc1=f_m",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": true,
         "tagTitle": "Entre em contato conosco",
         "text": "Entre em contato conosco"
@@ -166,6 +182,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://www.amazon.jobs/aws",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": true,
         "tagTitle": "Carreiras na AWS",
         "text": "Carreiras na AWS"
@@ -182,6 +200,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/premiumsupport/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": true,
         "tagTitle": "Visão geral do AWS Support",
         "text": "Visão geral do AWS Support"
@@ -223,6 +243,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/faqs/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": true,
         "tagTitle": "Recursos da AWS",
         "text": "Recursos da AWS"
@@ -304,6 +326,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/faqs/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": true,
         "tagTitle": "Recursos da AWS",
         "text": "Recursos da AWS"
@@ -320,6 +344,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/training/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "Treinamento",
         "text": "Treinamento"
@@ -336,6 +362,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/training/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "Certificação",
         "text": "Certificação"
@@ -352,6 +380,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/solutions/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "Porfólio da AWS",
         "text": "Porfólio da AWS"
@@ -368,6 +398,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/architecture/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "Centro de Arquitetura",
         "text": "Centro de Arquitetura"
@@ -384,6 +416,8 @@
       "itemProps": {
         "type": "internal",
         "href": "https://aws.amazon.com/pt/partners/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
         "noFollow": false,
         "tagTitle": "Rede de parceiros da AWS",
         "text": "Rede de parceiros da AWS"
