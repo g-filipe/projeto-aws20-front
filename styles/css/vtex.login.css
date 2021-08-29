@@ -7,9 +7,6 @@
     color: #fff;
 }
 
-.profileIcon:hover{
-    color: #ff9d00;
-}
 
 .formTitle {
     color: #fff;
@@ -19,8 +16,8 @@
     background-color: #ff9d00;
 }
 
-.container {
+/* .container {
     border: 2px solid #fff;
     border-radius: 5px;
-}
+} */
 

@@ -4,16 +4,22 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-desktop"
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
     ]
   },
-  "flex-layout.row#footer-desktop": {
+  "flex-layout.row#footer-1-desktop": {
     "children": [
-      "rich-text#footer",
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-resourcesaws",
+      "vtex.menu@2.x:menu#footer-developersaws",
+      "vtex.menu@2.x:menu#footer-helpaws",
+      "footer-spacer",
       "social-networks"
     ],
     "props": {
-      "blockClass": "footer-row",
+      "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
     }
@@ -23,34 +29,49 @@
     "props": {
       "socialNetworks": [
         {
-          "name": "Linkedin",
-          "url": "https://www.linkedin.com/in/galvaofs/"
-        },
-        {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/amazonwebservices"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
+          "url": "https://twitter.com/awscloud"
         },
         {
           "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "url": "https://www.youtube.com/user/AmazonWebServices/Cloud/"
         }
       ]
     }
   },
 
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
   "rich-text#footer": {
     "props": {
-      "text": "Developer by Filipe Galvão HC Desafio#3",
+      "text": "Realizado pela equipe 20 do programa Hiring Coders 2",
       "blockClass": "footer"
     }
   },
 
   "footer-layout.mobile": {
     "children": [
+      "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
     ]
   },
@@ -64,6 +85,7 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
+      "accepted-payment-methods",
       "social-networks",
       "rich-text#footer-mobile"
     ],
@@ -74,9 +96,16 @@
       "rowGap": 4
     }
   },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "Developer by Filipe Galvão HC Desafio#3",
+      "text": "Realizado pela equipe 20 do programa Hiring Coders 2",
       "blockClass": "footer"
     }
   }
