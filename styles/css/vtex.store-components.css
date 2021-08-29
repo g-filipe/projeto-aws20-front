@@ -33,3 +33,8 @@
   margin-top: 50px;
   color: #FFFFFF;
 }
+
+
+.infoCardImageContainer, .infoCardTextContainer {
+  margin: 2% 5%;
+}

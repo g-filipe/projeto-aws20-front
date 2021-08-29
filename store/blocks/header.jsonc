@@ -42,7 +42,7 @@
   },
   "login": {
     "props": {
-      "emailAndPasswordTitle": "LOG-IN",
+      "emailAndPasswordTitle": "Fazer Login",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
@@ -59,7 +59,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://a0.awsstatic.com/libra-css/images/logos/aws_smile-header-desktop-en-white_59x35.png",
+      "url": "https://a0.awsstatic.com/libra-css/images/logos/aws_smile-header-desktop-en-white_59x35@2x.png",
       "width": "70"
     }
   },
