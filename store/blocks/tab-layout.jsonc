@@ -7,7 +7,7 @@
     }
   },
   "tab-list#home": {
-    "children": ["tab-list.item#menu1", "tab-list.item#menu2", "tab-list.item#menu3", "tab-list.item#menu4", "tab-list.item#menu5", "tab-list.item#menu6"]//, "tab-list.item#menu7", "tab-list.item#menu8"
+    "children": ["tab-list.item#menu1", "tab-list.item#menu2", "tab-list.item#menu3", "tab-list.item#menu4", "tab-list.item#menu5", "tab-list.item#menu6"]
   },
   "tab-list.item#menu1": {
     "props": {
@@ -46,21 +46,9 @@
       "label": "7 Maravilhas"
     }
   },
-//  "tab-list.item#menu7": {
-//    "props": {
-//      "tabId": "menu7",
-//      "label": "Guerreiros"
-//    }
-//  },
-//  
-//  "tab-list.item#menu8": {
-//    "props": {
-//      "tabId": "menu8",
-//      "label": "Álbum1"
-//    }
-//  },
+
   "tab-content#home": {
-  "children": ["tab-content.item#menu1", "tab-content.item#menu2", "tab-content.item#menu3", "tab-content.item#menu4", "tab-content.item#menu5", "tab-content.item#menu6"] //"tab-content.item#menu7", "tab-content.item#menu8"//
+  "children": ["tab-content.item#menu1", "tab-content.item#menu2", "tab-content.item#menu3", "tab-content.item#menu4", "tab-content.item#menu5", "tab-content.item#menu6"] 
   },
 
   "tab-content.item#menu1": {
@@ -100,36 +88,23 @@
     }
   },
 
-//  "tab-content.item#menu7": {
-//    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
-//    "props": {
-//      "tabId": "menu7"
-//    }
-//   },
-//
   "flex-layout.row#shelf1": {
-        "children": ["list-context.product-list#home1"]
+   "children": ["list-context.product-list#home1"]
 },
-//  "tab-content.item#menu8": {
-//    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
-//    "props": {
-//      "tabId": "menu8"
-//    }
-//   },
 
   "list-context.image-list#tab1": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 600,
+      "height": 800,
       "images": [
         {
-          "image": "https://github.com/g-filipe/sources/blob/main/bn1-aws.png?raw=true",
-          "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main/banner-wood_sport.png"
-        },
-        {
-          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/banner-grandes_guerreiros.png",
-          "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main/banner-grandes_guerreiros.png"
-        }
+          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png" , 
+          "mobileImage": "https://d1.awsstatic.com/china/hp/Website/Site-Merch_First-Time-Visitor_Hero-BG.95709379ff5911afed6a90a90b17102f92a608dd.png"
+        }//,
+      //  {
+      //    "image": "https://raw.githubusercontent.com/g-filipe/sources/main///banner-grandes_guerreiros.png",
+      //    "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main///banner-grandes_guerreiros.png"
+      //  }
       ]
     }
   },
