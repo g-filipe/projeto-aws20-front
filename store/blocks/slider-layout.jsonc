@@ -10,11 +10,13 @@
      "tab-layout#header7",
      "tab-layout#header8"
     ],
+    
     "props":{
       "blockClass":"lista",
       "defaultActiveTabById":"home1"
     }
   },
+
   "tab-layout#header1":{
 
       "children":[
@@ -26,8 +28,8 @@
       "children": [
           "tab-list.item#home1"
       ]
-
   },
+
   "tab-list.item#home1":{
       "props":{
           "tabId":"menu1",
@@ -57,6 +59,7 @@
           "defaultActiveTab":true
       }
   },
+
   "tab-layout#header3":{
 
       "children":[
@@ -76,9 +79,8 @@
           "label":"Definições de Preço",
           "defaultActiveTab":true
       }
-  }
+  },
 
-  ,
   "tab-layout#header4":{
 
       "children":[
