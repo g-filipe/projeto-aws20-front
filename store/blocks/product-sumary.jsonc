@@ -1,16 +1,9 @@
 {
   "product-summary.shelf#home": {
-    "children": [
-      "product-summary-name",
-      "stack-layout#prodsum",
-      "product-summary-price",
-      "add-to-cart-button"
-    ]
+    "children": [   ]
   },
   "stack-layout#prodsum": {
-    "children": [
-      "product-summary-image#shelf"
-    ]
+    "children": [ ]
   },
 
   "product-summary-image#shelf": {
@@ -21,8 +14,8 @@
     }
   },
   "list-context.product-list#home1": {
-    "blocks": ["product-summary.shelf#home"],
-    "children": ["slider-layout#products"],
+    "blocks": [],
+    "children": [],
     "props": {
       "orderBy": "OrderByNameASC",
       "maxItems": 8

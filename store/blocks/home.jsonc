@@ -1,6 +1,6 @@
 {
   "store.home": {
-     "blocks": ["slider-layout#home", "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row","rich-text#product", "search-result-layout.customQuery#home"]
+    "blocks": ["slider-layout#home","tab-layout#home",  "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row","rich-text#product", "search-result-layout.customQuery#home"]
   },
 
 
@@ -8,27 +8,11 @@
     "blocks": ["product-summary.shelf"]
   },
 
-    "stack-layout#cta": {
-    "children": ["link#cta"]
-  },
-
-    "link#cta": {
-    "props": {
-    "displayMode": "button",
-    "buttonProps": {
-      "variant": "primary",
-      "size": "large"
-    },
-    "href": "https://portal.aws.amazon.com/billing/signup?exp=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation&language=pt_br#/start" ,
-    "target":"_blank",
-    "rel": "noreferrer noopener",
-    "label": "Comece a usar gratuitamente"
-    }
-  },
+  
 
    "rich-text": {
     "props": {
-      "text": "**Confira as soluções**",
+      "text": "**Confira as soluções da AWS**",
       "font": "t-heading-2",
       "textPosition": "CENTER"
     }
@@ -90,11 +74,12 @@
 
   "rich-text#product": {
     "props": {
-      "text": "**Conheça os produtos**",
+      "text": "Conheça os produtos da AWS",
       "font": "t-heading-2",
       "textPosition": "CENTER"
     }
   },
+
   "search-result-layout.customQuery#home": {
     "props": {
       "querySchema": {
@@ -129,8 +114,8 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "(min-width: 1300px)": 4,
-            "desktop": 3,
+            "(min-width: 1330px)": 5,
+            "desktop": 5,
             "tablet": 3,
             "phone": 2
           }

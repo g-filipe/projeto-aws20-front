@@ -1,6 +1,6 @@
 {
   "tab-layout#home": {
-    "children": ["tab-list#home", "tab-content#home"],
+    "children": ["tab-list#home", "tab-content#home","stack-layout#cta"],
     "props": {
       "blockClass": "menu",
       "defaultActiveTabId": "menu1"
@@ -32,13 +32,9 @@
       "height": 800,
       "images": [
         {
-          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png" , 
+          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png",
           "mobileImage": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png"
-        }//,
-      //  {
-      //    "image": "https://raw.githubusercontent.com/g-filipe/sources/main///banner-grandes_guerreiros.png",
-      //    "mobileImage": "https://raw.githubusercontent.com/g-filipe/urces///main///banner-grandes_guerreiros.png"
-      //  }
+        }
       ]
     }
   },
@@ -54,5 +50,23 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
+  },
+  "stack-layout#cta": {
+    "children": ["link#cta"]
+  },
+
+    "link#cta": {
+    "props": {
+    "displayMode": "button",
+    "buttonProps": {
+      "variant": "primary",
+      "size": "large"
+    },
+    "href": "https://portal.aws.amazon.com/billing/signup?exp=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation&language=pt_br#/start",
+    "target":"_blank",
+    "rel": "noreferrer noopener",
+    "label": "Comece a usar gratuitamente"
+    }
   }
 }
+
