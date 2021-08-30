@@ -8,10 +8,8 @@
     "blocks": ["product-summary.shelf"]
   },
 
-  
-
-   "rich-text": {
-    "props": {
+      "rich-text": {
+      "props": {
       "text": "**Confira as soluções da AWS**",
       "font": "t-heading-2",
       "textPosition": "CENTER"
@@ -114,7 +112,6 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "(min-width: 1330px)": 5,
             "desktop": 5,
             "tablet": 3,
             "phone": 2

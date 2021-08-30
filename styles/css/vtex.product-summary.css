@@ -1,7 +1,8 @@
 .container {
   background-color: #2C3B4F;
   padding: 25px;
-  width:max-content;
+  width:265px;
+  height:300px;
   flex-direction: column-reverse;
 }
 
@@ -23,9 +24,10 @@
 }
 
 .sellingPrice {
-  color: #59ff00;
+  color: #FF9D00;
   font-size: 1.6rem;
   padding-right: 10px;
+  align-self: center;
 }
 
 .sellingPriceLabel {
