@@ -46,3 +46,9 @@
 .infoCardButton {
   border: solid 1px #eee;
 }
+
+.productImageTag {
+  height: 300px!important;
+  width: 600px!important;
+}
+
