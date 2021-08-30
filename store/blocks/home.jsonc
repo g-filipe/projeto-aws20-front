@@ -1,6 +1,6 @@
 {
   "store.home": {
-     "blocks": ["slider-layout#home", "search-result-layout.customQuery#home", "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row"]
+     "blocks": ["slider-layout#home", "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row","rich-text#product", "search-result-layout.customQuery#home"]
   },
 
 
@@ -88,6 +88,13 @@
     }
   },
 
+  "rich-text#product": {
+    "props": {
+      "text": "**Conheça os produtos**",
+      "font": "t-heading-2",
+      "textPosition": "CENTER"
+    }
+  },
   "search-result-layout.customQuery#home": {
     "props": {
       "querySchema": {
