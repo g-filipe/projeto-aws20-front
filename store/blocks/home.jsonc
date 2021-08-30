@@ -1,6 +1,6 @@
 {
   "store.home": {
-     "blocks": ["slider-layout#home","tab-layout#home","__fold__", "stack-layout#cta", "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row"]
+     "blocks": ["slider-layout#home", "search-result-layout.customQuery#home", "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row"]
   },
 
 
@@ -85,6 +85,57 @@
       "callToActionText": "Saiba mais",
       "callToActionUrl": "https://aws.amazon.com/pt/products/storage/?hp=tile&tile=solutions",
       "textAlignment": "center"
+    }
+  },
+
+  "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#aws", "search-result-layout.mobile"]
+  },
+  "search-result-layout.desktop#aws": {
+    "children": [
+      "search-content#aws"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#result": {
+    "children": [
+      "search-content#aws"
+    ]
+  },
+  "search-content#aws": {
+    "blocks": [
+      "gallery", "not-found"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width: 1300px)": 4,
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf",
+      "GridSummary": "product-summary.shelf"
     }
   }
 

@@ -1,16 +1,18 @@
 .container {
-  background-color: #424242;
+  background-color: #2C3B4F;
   padding: 25px;
   width:max-content;
 }
 
 .nameContainer {
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
 .brandName {
   color: #ffffff;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .image {
@@ -20,6 +22,7 @@
 .sellingPrice {
   color: #59ff00;
   font-size: 1.6rem;
+  padding-right: 10px;
 }
 
 .sellingPriceLabel {

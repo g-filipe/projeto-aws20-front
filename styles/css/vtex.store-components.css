@@ -39,3 +39,10 @@
   margin: 2% 5%;
 }
 
+.infoCardSubhead{
+  font-size: 1.2rem;
+}
+
+.infoCardButton {
+  border: solid 1px #eee;
+}
