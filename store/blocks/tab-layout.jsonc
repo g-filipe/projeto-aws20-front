@@ -62,10 +62,11 @@
       "variant": "primary",
       "size": "large"
     },
-    "href": "https://portal.aws.amazon.com/billing/signup?exp=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation&language=pt_br#/start",
+    "href": "https://aws.amazon.com/pt/about-aws/",
+    "path": "/about-us",
     "target":"_blank",
     "rel": "noreferrer noopener",
-    "label": "Comece a usar gratuitamente"
+    "label": "Clique aqui e saiba mais sobre a AWS"
     }
   }
 }

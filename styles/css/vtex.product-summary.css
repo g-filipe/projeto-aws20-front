@@ -1,7 +1,7 @@
 .container {
   background-color: #2C3B4F;
   padding: 25px;
-  width:max-content;
+  width: 260px;
   flex-direction: column-reverse;
 }
 
